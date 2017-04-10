@@ -1,0 +1,9 @@
+version: "2"
+syncs:
+  data-sync-mittwald:
+    src: './Volumes/Shop/DocRoot'
+    dest: '/var/www/html'
+    sync_host_ip: '127.0.0.1'
+    sync_host_port: 10872
+    sync_strategy: 'unison'
+    sync_userid: '33'
